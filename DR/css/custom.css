@@ -1,0 +1,38 @@
+.custom-tabs .tab-content {
+    border: 1px solid #f2f2f2;
+    padding: 15px;
+}
+.custom-tabs .tab-content .card .card-body h5 {
+    font-size: 1.10rem !important;
+}
+.custom-tabs .tab-content .card .card-body {
+    min-height: 80px;
+    padding: 1rem;
+}
+.custom-tabs .tab-content ol, ul {
+    padding-left: 0px;
+}
+.custom-tabs .tab-content ol li, ul li {
+    padding-bottom: 15px;
+    color: #000;
+}
+.custom-tabs .tab-content .nobullet {
+    list-style-type: none;
+}
+.custom-ul ul{
+    padding-left: 15px;
+}
+.custom-ul .mleft {
+    padding-left: 15px !important;
+}
+.custom-tabs .tab-content p, li {
+    color: #000;
+}
+@media (max-width: 600px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+    .custom-tabs .nav-tabs .nav-link {
+        width: 100%;
+    }   
+}
