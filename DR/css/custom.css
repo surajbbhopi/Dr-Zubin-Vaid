@@ -65,4 +65,7 @@
     .custom-tabs .tab-content .card .card-body {
         min-height: 50px;
     }
+    .carousel-inner {
+        min-height: 630px;
+    }
 }
