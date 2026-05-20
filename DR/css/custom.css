@@ -32,17 +32,32 @@
 .custom-tabs .tab-content p, li {
     color: #000;
 }
-.carousel-inner{
+.testimonal .carousel-inner{
     background-color: #f2f2f2;
     width: 100%;
     min-height: 330px;
 }
-.carousel-inner .carousel-item .carousel-caption p {
+.testimonal .carousel-inner .carousel-item .carousel-caption p {
     color: #000;
 }
-.carousel-caption {
+.testimonal .carousel-caption {
     top: 20px !important;
 }
+.contact-us .card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.contact-us .card a{
+    color: #000;
+}
+
+.section_footer_sticky {display:none;}
+.section_footer_sticky p, a{color:#fff;}
+.section_footer_sticky .row{padding-left: 15px;padding-right: 15px;}
+
+.testimonals .card .card-body a {
+    color: #bd5d38;
+}
+
 @media (max-width: 600px) {
     h2 {
         font-size: 1.5rem;
@@ -65,7 +80,14 @@
     .custom-tabs .tab-content .card .card-body {
         min-height: 50px;
     }
-    .carousel-inner {
+    .testimonal .carousel-inner {
         min-height: 630px;
     }
+    .section_footer_sticky {
+        background:#01008a; position: sticky;
+        bottom: 0;
+        z-index: 1020; display: block;
+    }
+    .section_footer_sticky p, a {font-size: 1.1rem; margin: 0px;}
+    .border-ri {border-right:1px solid #fff;}
 }
