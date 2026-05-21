@@ -50,12 +50,40 @@
     color: #000;
 }
 
-.section_footer_sticky {display:none;}
+/* .section_footer_sticky {display:none;}
 .section_footer_sticky p, a{color:#fff;}
 .section_footer_sticky .row{padding-left: 15px;padding-right: 15px;}
 
 .testimonals .card .card-body a {
     color: #bd5d38;
+} */
+
+.fixed-whatsapp {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     z-index: 9999;
+     text-align: center;
+}
+ .fixed-whatsapp:before {
+     content: "";
+     width: 50px;
+     height: 50px;
+     background-color: #00C853;
+     position: absolute;
+     border-radius: 100%;
+     box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+     z-index: 1;
+     top: 0;
+     left: 0;
+}
+ .fixed-whatsapp svg {
+     vertical-align: middle;
+     z-index: 2;
+     position: relative;
 }
 
 @media (max-width: 600px) {
