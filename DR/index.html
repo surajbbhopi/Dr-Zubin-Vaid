@@ -20,7 +20,12 @@
     <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
     <link href="css/resume.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css">
 
@@ -81,6 +86,30 @@
 
     <div class="container-fluid p-0">
 
+      <section class="headersection">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="">
+                  <p>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    Appointments : <a class="button-1" href="tel:+919967183837">+91 9967183837</a> 
+                    Call Between 9 AM to 9 PM - Mon to Sat
+                  </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="text-right">
+                  <p>
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    Emergency Call <a class="button-1" href="tel:+917738698083">+91 77386 98083 </a>
+                  </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="resume-sections p-2 p-lg-3 d-flex d-column">
         <div class="">
             <div id="demo" class="carousel slide" data-ride="carousel">
@@ -110,11 +139,57 @@
             </div>
         </div>
       </section>
+      <section class="about-section p-2 p-lg-3 bg-color-1" id="about">
+        <div class="mt-0 section-achivements">
+          <div class="container">
+            <div class="row pb-3 pt-3">
+              <div class="col-md-4">
+                <div class="card card-bg-color-1">
+                  <div class="card-body">
+                    <p class="text-center">
+                      <i class="fa fa-user-md fa-4x" aria-hidden="true"></i>
+                      <!-- <img src="./img/" alt="icon" /> -->
+                    </p>
+                    <p class="text-center mb-0">
+                      <b>20+ Years</b> <br/> of Experience
+                    </p>
+                  </div>
+                </div> 
+              </div>
+              <div class="col-md-4">
+                <div class="card card-bg-color-2">
+                  <div class="card-body">
+                    <p class="text-center">
+                      <i class="fa fa-graduation-cap fa-4x" aria-hidden="true"></i>
+                      <!-- <img src="./img/" alt="icon" /> -->
+                    </p>
+                    <p class="text-center mb-0">
+                      <b>M.D. Medicine</b> Seth G.S. Medical College, Mumbai
+                    </p>
+                  </div>
+                </div> 
+              </div>
+              <div class="col-md-4">
+                <div class="card card-bg-color-3">
+                  <div class="card-body">
+                    <p class="text-center">
+                      <i class="fa fa-university fa-4x"></i>
+                      <!-- <img src="./img/" alt="icon" /> -->
+                    </p>
+                    <p class="text-center mb-0">
+                      <b>Former Lecturer</b> Seth G.S. Medical College & KEM Hospital, Mumbai
+                    </p>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section class="resume-section p-2 p-lg-3 d-flex d-column" id="about">
-        <div class="mt-0">
-          <h2 class="mb-2 m-mb">ABOUT DOCTOR</h2>
-          
+        <div class="mt-0 section-title">
+          <h2 class="mb-5 m-mb text-center">About Doctor</h2>
           <div class="custom-tabs">
             <nav>
               <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -492,70 +567,70 @@
               </div>
             </div>
 
-            <!--
-            <ul class="list-inline list-social-icons mb-0">
-              <li class="list-inline-item">
-                <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-            </ul>
-            -->
           </div>
         </div>
       </section>
 
       <section class="resume-section p-2 p-lg-3 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Gallary</h2>
-
-          <!-- <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Senior Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+        <div class="my-auto section-title">
+          <h2 class="mb-5 text-center">Gallary</h2>
+          <div class="container page-top">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="./img/test.svg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                      <img  src="./img/test.svg" class="zoom img-fluid "  alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="./img/test.svg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                      <img  src="./img/test.svg" class="zoom img-fluid "  alt="">
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="./img/test.svg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                      <img  src="./img/test.svg" class="zoom img-fluid "  alt="">
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="./img/test.svg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                      <img  src="./img/test.svg" class="zoom img-fluid "  alt="">
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="./img/test.svg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                      <img  src="./img/test.svg" class="zoom img-fluid "  alt="">
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="./img/test.svg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                      <img  src="./img/test.svg" class="zoom img-fluid "  alt="">
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="./img/test.svg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                      <img  src="./img/test.svg" class="zoom img-fluid "  alt="">
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="./img/test.svg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                      <img  src="./img/test.svg" class="zoom img-fluid "  alt="">
+                    </a>
+                </div>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">March 2013 - Present</span>
-            </div>
-          </div> -->
-
         </div>
-
       </section>
 
       <section class="resume-section p-2 p-lg-3 d-flex flex-column testimonals" id="education">
-        <div class="my-auto">
-          <h2 class="mb-3">TESTIMONIALS</h2>
+        <div class="my-auto section-title">
+          <h2 class="mt-4 mb-5 text-center">Testimonials</h2>
 
-          <div class="container mb-2">
+          <div class="container mb-5">
             <div class="row mb-1">
               <div class="col-md-6">
                 <div class="card">
@@ -662,8 +737,615 @@
       </section>
 
       <section class="resume-section p-2 p-lg-3 d-flex flex-column" id="interests">
-        <div class="my-auto">
-          <h2 class="mb-5">PATIENT CORN</h2>
+        <div class="section-title">
+          <h2 class="mt-4 mb-5 text-center">Patient Corner</h2>
+          <div class="patient-cornor">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-instruction" data-toggle="tab" data-target="#nav-inst" type="button" role="tab" aria-controls="nav-inst" aria-selected="true">Instruction</button>
+                <button class="nav-link" id="nav-chart" data-toggle="tab" data-target="#nav-char" type="button" role="tab" aria-controls="nav-char" aria-selected="false">Charts</button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-inst" role="tabpanel" aria-labelledby="nav-instruction">
+                <div class="container mt-3">
+                  <div class="row pb-3">
+                    <div class="col-md-6">
+                      <div class="card h-100">
+                        <div class="card-header">
+                          <p class="text-center">Appointments</p>
+                        </div>
+                        <div class="card-body">
+                          <p>
+                            Routine appointment please contact <a href="tel:9867183837">9867183837</a>. Call for appointment between 9am to 9 pm , Monday to Saturday. 
+                            An appointment can even be taken a few days to a few months in advance for routine 
+                            consultations. Urgent same day appointments could be tried requesting the reception. 
+                            If not available please SMS on <a href="tel:9821231939">9821231939</a>, stating in detail what the urgency is and I will try my best to 
+                            get you an appointment on the same day itself by an SMS revert. Urgent appointments will not be given by way 
+                            of phone calls or WhatsApp.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card h-100">
+                        <div class="card-header">
+                          <p class="text-center">Waiting time for consultations</p>
+                        </div>
+                        <div class="card-body">
+                          <p>
+                            We value your time and try our best to have the least waiting for a consultation. 
+                            However, this may not always be possible because of various factors like the varying 
+                            time required for each consultation. Hence there can never be an assurance for a 
+                            maximum waiting period and waiting times could get extremely prolonged especially for 
+                            extra appointments. Please bear with us for the same.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row pb-3">
+                    <div class="col-md-6">
+                      <div class="card h-100">
+                        <div class="card-header">
+                          <p class="text-center">Reports</p>
+                        </div>
+                        <div class="card-body">
+                          <p>
+                            There has to be an appointment taken to show the reports either with me or my assistant which 
+                            will usually be given at the time of asking for the tests. Please note that reports are 
+                            strictly not to be sent by digital media including WhatsApp, mail or SMS except in 
+                            very extreme circumstances where previous permission is required to send them by mail only. 
+                            Again this is in an extreme circumstance with prior permission, not otherwise.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card h-100">
+                        <div class="card-header">
+                          <p class="text-center">Home Visits and home based sickness/death/will/fitness certificates</p>
+                        </div>
+                        <div class="card-body">
+                          <p>
+                            In view of opds and multiple hospital visits and emergencies, there is no scope for me to make house visits for any reason at any time. Hence it is prudent to please keep in touch with your family doctor/general practitioner for minor ailments, advice, certificates at home, house visits etc. even if you are regularly following up with me. I can definitely help by coordinating with the doctor telephonically whenever necessary.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row pb-3">
+                    <div class="col-md-6">
+                      <div class="card">
+                        <div class="card-header">
+                          <p class="text-center">Emergencies and admissions. In case of a medical emergency</p>
+                        </div>
+                        <div class="card-body">
+                          <p>
+                            SMS on 9821231939. or Call <a class="button-1" href="tel:7738698083">7738698083</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-char" role="tabpanel" aria-labelledby="nav-chart">
+                <div class="container cart-section">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h6>Cholesterol Issues and Dyslipidemia</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="http://drzubinvaid.com/wp-content/uploads/2019/07/Cholesterol-and-Women.pdf" target="_blank">Cholesterol and Women</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Cholesterol-and-Your-Health.pdf">Cholesterol and Your Health</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="http://drzubinvaid.com/wp-content/uploads/2019/07/Cholesterol-and-Women.pdf" target="_blank">Cholesterol and Women</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Increasing-Good-Cholesterol.pdf" target="_blank">Increasing Good Cholesterol</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Triglycerides-and-Your-Health.pdf">Triglycerides and Your Health</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h6>Diabetes</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/BLOOD_SUGAR_CHART.pdf" target="_blank">Blood Sugar Chart</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Consequences-of-Diabetes.pdf">Consequences of Diabetes</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Diabetes-Foot-Ulcers-and-Infections.pdf" target="_blank">Diabetes - Foot Ulcers and Infections</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Diabetes-The-Importance-of-Exercise.pdf" target="_blank">Diabetes - The Importance of Exercise</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Diabetes-and-Exercise-Preventing-Low-Blood-Sugar.pdf">Diabetes and Exercise - Preventing Low Blood Sugar</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Diabetes-and-School.pdf" target="_blank">Diabetes and School</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Diabetes-and-Self-Glucose-Monitoring.pdf" target="_blank">Diabetes and Self Glucose Monitoring</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Diabetes-and-the-Heart.pdf" target="_blank">Diabetes and the Heart</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Diabetes-and-Women.pdf" target="_blank">Diabetes and Women</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Diabetic-Infections.pdf" target="_blank">Diabetic Infections</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Diabetic-Neuropathy.pdf" target="_blank">Diabetic Neuropathy</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Diabetic-Retinopathy.pdf" target="_blank">Diabetic Retinopathy</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="http://drzubinvaid.com/wp-content/uploads/2019/07/DIET_IN_DIABETES.pdf" target="_blank"> Diet in Diabetes</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Disordered-Eating-and-Diabetes.pdf" target="_blank">Disordered Eating and Diabetes</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/instructions-for-diabetes-medication.pdf" target="_blank">Instructions for Diabetes Medication</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Simple-Instructions-for-Hypoglycemia.pdf" target="_blank">Simple Instructions for Hypoglycemia</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Types-of-Diabetes.pdf" target="_blank">Types of Diabetes</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h6>Common Orthopaedic Exercises</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Carpal-Tunnel-Syndrome-exercises.pdf" target="_blank">Carpal Tunnel Syndrome exercises</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="http://drzubinvaid.com/wp-content/uploads/2019/07/Low-Back-Pain-Exercises.pdf" target="_blank">Low Back Pain Exercises</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="http://drzubinvaid.com/wp-content/uploads/2019/07/plantar-fascitis-exercises.pdf" target="_blank">Plantar Fascitis Exercises</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Tennis-Elbow-Exercises.pdf" target="_blank">Tennis Elbow Exercises</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h6>Hypertension</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/High-Blood-Pressure.pdf" target="_blank">High Blood Pressure</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Hypertension-Lifestyle-changes-and-Diet.pdf" target="_blank">Hypertension Lifestyle changes and Diet</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h6>Miscellaneous</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Diet-for-Urolithiasis-Pts-final.pdf" target="_blank">Diet for Urolithiasis</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/G6PD-drugs-to-avoid.pdf" target="_blank">G6PD drugs to avoid</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Gout-Diet.pdf" target="_blank">Gout Diet</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/IBS-diet.pdf" target="_blank">IBS diet</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Kegel-Exercises.pdf" target="_blank">Kegel Exercises</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="http://drzubinvaid.com/wp-content/uploads/2019/07/Nebulizer-use.pdf" target="_blank">Nebulizer Use</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row pb-3">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Tips-for-weight-loss.pdf" target="_blank">Tips for weight loss</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="http://drzubinvaid.com/wp-content/uploads/2019/07/Vertigo-Exercises.pdf" target="_blank">Vertigo Exercises</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="text-center">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                          </p>
+                          <p class="text-center">
+                            <a href="https://drzubinvaid.com/wp-content/uploads/2019/07/Warfarin-and-Diet.pdf" target="_blank">Warfarin and Diet</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+          </div>
         </div>
       </section>
 
@@ -671,33 +1353,57 @@
         <div class="my-auto">
           <iframe width="100%" height="250" src="https://maps.google.com/maps?q=Niraant Clinic&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0"></iframe>
         </div>
-        <div class="my-auto">
-          <h2 class="mb-2 text-center">Get In Touch</h2>
+        <div class="my-auto section-title">
+          <h2 class="mt-4 mb-5 text-center">Get In Touch</h2>
         </div>
+
+        <div class="my-auto">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 card-bg-1">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h6>Dr. Zubin Vaid</h6>
+                    <p><b>Niraant Clinic</b></p>
+                    <p>
+                      3rd Floor, West Avenue, S.V. Road, next to HP Petrol Pump, opp. MA School, Zalawad Nagar, Station W, Andheri West, Mumbai, Maharashtra 400058
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 card-bg-2">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h6>For Routine appointments</h6>
+                    <p class="text-center">
+                      <i class="fa fa-phone"></i>
+                      <a href="tel:+919967183837">+91 9967183837</a> 
+                    </p>
+                    <p class="text-center">(Call Between 9 AM to 9 PM - Mon to Sat Only)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 card-bg-3">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h6>Emergency Contact</h6>
+                    <p>
+                      <i class="fa fa-phone"></i>
+                      <a href="tel:+919821231939">+91 98212 31939 </a> (SMS ONLY)
+                    </p>
+                    <p>
+                      <i class="fa fa-envelope"></i>
+                      <a href="mailto:mailuniquehosp@gmail.com">mailuniquehosp@gmail.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="my-auto">
           <div class="card">
-            <div class="card-body">
-              <h6>Dr. Zubin Vaid</h6>
-              <p>Niraant Clinic</p>
-              <p>
-                <i class="fa fa-map-marker"></i>
-                3rd Floor, West Avenue, S.V. Road, next to HP Petrol Pump, opp. MA School, Zalawad Nagar, Station W, Andheri West, Mumbai, Maharashtra 400058
-              </p>
-              <h6>For Routine appointments</h6>
-              <p>
-                <i class="fa fa-phone"></i>
-                <a href="tel:+919967183837">+91 9967183837</a> (Call Between 9 AM to 9 PM - Mon to Sat Only)
-              </p>
-              <h6>Emergency Contact</h6>
-              <p>
-                <i class="fa fa-phone"></i>
-                <a href="tel:+919821231939">+91 98212 31939 </a> (SMS ONLY)
-              </p>
-              <p>
-                <i class="fa fa-envelope"></i>
-                <a href="mailto:mailuniquehosp@gmail.com">mailuniquehosp@gmail.com</a>
-              </p>
-            </div>
             <div class="card-footer">
               <p>
                 <a href="https://www.justdial.com/Mumbai/Dr--Zubin-Vaid-(Unique-Hospital---Poly-Clinic)-Andheri-West/022PCLR20090310IROP952464188_BZDET?via=scode" target="_blank">
@@ -721,27 +1427,11 @@
         </svg>
       </a>
 
-      <!-- <div class="container-fluid section_footer_sticky">
-        <div class="">
-            <div class="row pt-2 pb-2">
-                <div class="col">
-                    <p class="border-ri">
-                        <a href="tel:+919967183837" class="call-us-sec">
-                          <i class="fas fa fa-phone"></i> Call Us
-                        </a>
-                    </p>
-                </div>
-                <div class="col">
-                    <p>
-                        <a href="https://wa.me/+" class="whats-app-sec" target="_blank">
-                          <i class="fas fa fa-whatsapp"></i> WhatsApp Us
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-      </div> -->
-
+      <section class="d-flex flex-column">
+        <footer class="footer-section">
+          <p>Copyright &copy; 2026</p>
+        </footer>
+      </section>
 
     </div>
 
@@ -751,9 +1441,27 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".fancybox").fancybox({
+              openEffect: "none",
+              closeEffect: "none"
+          });
+          
+          $(".zoom").hover(function(){
+          
+          $(this).addClass('transition');
+        }, function(){
+              
+          $(this).removeClass('transition');
+        });
+      });      
+    </script>
 
   </body>
 
