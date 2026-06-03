@@ -47,7 +47,7 @@
     color: #fff;
 }
 .section-achivements .card .card-body p {
-    font-size: 14px;
+    font-size: 18px;
 }
 .section-achivements .card {
     border-radius: 15px 15px 15px 15px;
@@ -135,7 +135,9 @@
 }
 .contact-us .card p {
     color: #000;
-    font-size: 14px;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 8px;
 }
 .contact-us .card a{
     color: #000;
