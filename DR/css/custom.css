@@ -423,4 +423,11 @@ img.zoom {
     .about-para h4 {
         padding-top: 15px;
     }
+    .contact-us .card p {
+        text-align: center !important;
+        margin-bottom: 12px;
+    }
+    .contact-us .card h6 {
+        text-align: center !important;
+    }
 }
