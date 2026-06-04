@@ -361,7 +361,9 @@ img.zoom {
   line-height: 30px;
   color: #000;
 }
-
+.list-social-icons li {
+    margin: 0 20px;
+}
 
 
 @media (max-width: 600px) {
@@ -408,5 +410,17 @@ img.zoom {
     }
     #main #faq .card .card-header .btn-header-link.collapsed {
         text-wrap: auto;
+    }
+    .list-social-icons li {
+        margin: 0 0px;
+    }
+    .fixed-whatsapp {
+        right: 20px;
+    }
+    .section-title h2 {
+        margin-top: 0px !important;
+    }
+    .about-para h4 {
+        padding-top: 15px;
     }
 }
