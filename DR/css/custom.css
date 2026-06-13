@@ -364,7 +364,13 @@ img.zoom {
 .list-social-icons li {
     margin: 0 20px;
 }
-
+section.resume-section {
+    border-bottom: none;
+}
+.testimonial-wrap-2 {
+    background: #fdf9f9;
+    border-radius: 10px;
+}
 
 @media (max-width: 600px) {
     .headersection p {
