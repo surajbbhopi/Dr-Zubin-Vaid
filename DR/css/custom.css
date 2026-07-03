@@ -371,7 +371,9 @@ section.resume-section {
     background: #fdf9f9;
     border-radius: 10px;
 }
-
+.slick-prev, .slick-next {
+    background: #05477d !important;
+}
 @media (max-width: 600px) {
     .headersection p {
         text-align: center;
@@ -388,7 +390,6 @@ section.resume-section {
     }
     section.resume-section {
         padding-top: 2rem !important;
-        padding-bottom: 0px !important;
     }   
     .m-mb {
         margin-bottom: 20px !important;
@@ -436,5 +437,8 @@ section.resume-section {
     }
     .contact-us .card h6 {
         text-align: center !important;
+    }
+    .table tr{
+        display: grid;
     }
 }
