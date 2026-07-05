@@ -6,6 +6,7 @@
 }
 .navbar.navbar-dark .navbar-brand {
     font-family: 'Algerian';
+    word-spacing: -5px;
 }
 .headersection {
     background: #eef9ff;
