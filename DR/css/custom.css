@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Algerian';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../font/Algerian\ Regular.woff);
+}
+.navbar.navbar-dark .navbar-brand {
+    font-family: 'Algerian';
+}
 .headersection {
     background: #eef9ff;
     padding-top: 15px;
