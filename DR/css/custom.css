@@ -384,6 +384,19 @@ section.resume-section {
 .slick-prev, .slick-next {
     background: #05477d !important;
 }
+.contact-details-tabel tr td {
+    padding: 6px;
+    color: #000;
+}
+.contact-details-tabel thead {
+    background: #0b4b7e;
+    color: #fff;
+}
+.contact-details-tabel tr td {
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
 @media (max-width: 600px) {
     .headersection p {
         text-align: center;
