@@ -412,7 +412,18 @@ section.resume-section {
 .ligh-green {
     background: #dff2e7;
 }
-
+i.fa.fa-calendar.fa-2x {
+    color: #05477d;
+}
+i.fa.fa-commenting-o.fa-2x {
+    color: #05477d;
+}
+i.fa.fa-phone-square.fa-2x{
+    color: #fb0437;
+}
+i.fa.fa-whatsapp.fa-2x{
+    color: #00C853;
+}
 
 @media (max-width: 600px) {
     .headersection p {
