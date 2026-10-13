@@ -396,6 +396,23 @@ section.resume-section {
     font-family: 'Montserrat';
     font-size: 14px;
 }
+.custom-modification h6 {
+    color: #0b4b7e;
+}
+.card.custom-modification p {
+    margin-bottom: 8px;
+    color: #000;
+}
+.ligh-blue {
+    background: #f0f8ff;
+}
+.ligh-emergancy {
+    background: #ffeaea;
+}
+.ligh-green {
+    background: #dff2e7;
+}
+
 
 @media (max-width: 600px) {
     .headersection p {
